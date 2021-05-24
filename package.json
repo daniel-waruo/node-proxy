@@ -1,0 +1,17 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "description": "a proxy made with node",
+  "main": "index.js",
+  "author": "Daniel Waruo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+   "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0",
+    "morgan": "^1.10.0"
+  }
+}
